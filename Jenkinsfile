@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build application') {
             steps {
-                sh 'g++ -o PES1UG22CS684-1 VeluruDheeraj main.cpp'  
+                sh 'g++ -o PES1UG22CS684-1 main.cpp'  
             }
         }
         stage('Test application') {
